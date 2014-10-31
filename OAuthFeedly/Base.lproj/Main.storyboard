@@ -41,7 +41,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LUn-k7-EV6">
-                        <barButtonItem key="rightBarButtonItem" title="Edit" id="Vn1-wa-DC1"/>
+                        <barButtonItem key="rightBarButtonItem" title="Edit" id="Vn1-wa-DC1">
+                            <connections>
+                                <action selector="editAction:" destination="uTs-db-PUP" id="Qd9-wd-Bll"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="editButton" destination="Vn1-wa-DC1" id="mgS-tx-chU"/>
